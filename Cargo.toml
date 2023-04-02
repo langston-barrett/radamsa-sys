@@ -1,11 +1,13 @@
 [package]
 name = "radamsa-sys"
-version = "0.0.0"
+description = "Rust bindings for Radamsa"
+version = "0.1.0"
+authors = ["Langston Barrett <langston.barrett@gmail.com>"]
+keywords = ["bindings", "black-box", "fuzzing", "radamsa"]
 edition = "2021"
-authors = ["Langston Barrett"]
-
-[dependencies]
-libc = "0.2"
+license = "MIT"
+homepage = "https://github.com/langston-barrett/radamsa-sys"
+repository = "https://github.com/langston-barrett/radamsa-sys"
 
 [build-dependencies]
 bindgen = "0.64"
