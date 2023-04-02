@@ -1,0 +1,11 @@
+[package]
+name = "radamsa-sys"
+version = "0.0.0"
+edition = "2021"
+authors = ["Langston Barrett"]
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+bindgen = "0.64"
