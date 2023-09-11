@@ -10,4 +10,4 @@ homepage = "https://github.com/langston-barrett/radamsa-sys"
 repository = "https://github.com/langston-barrett/radamsa-sys"
 
 [build-dependencies]
-bindgen = "0.66"
+bindgen = "0.68"
