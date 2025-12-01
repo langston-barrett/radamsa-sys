@@ -21,7 +21,7 @@ jobs:
       run: |
         rustup update
         rustup component add clippy
-    - uses: Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6
+    - uses: Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5
     - name: Lint
       run: cargo clippy -- --deny warnings
 
@@ -29,6 +29,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
-    - uses: Swatinem/rust-cache@9d47c6ad4b02e050fd481d890b2ea34778fd09d6
+    - uses: Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5
     - run: cargo test --no-run
     - run: cargo test
